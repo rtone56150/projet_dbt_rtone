@@ -1,0 +1,30 @@
+[0m10:12:00.634817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002805270CED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280523EA8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002805270D750>]}
+
+
+============================== 10:12:00.639504 | dd88800b-b46f-48e7-bea1-de6cea793ca1 ==============================
+[0m10:12:00.639504 [info ] [MainThread]: Running with dbt=1.7.9
+[0m10:12:00.639504 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\glese\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:12:00.639504 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/glese/.dbt')}
+[0m10:12:00.647644 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m10:12:58.768586 [debug] [MainThread]: Starter project path: C:\Users\glese\Mon Drive\Wild\Expédition 17 - DatawareHouse  ETL  DBT  Postgre\DBT_DEMO\my-dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m10:12:58.935140 [info ] [MainThread]: 
+Your new dbt project "projet_dbt_rtone" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:12:58.935140 [info ] [MainThread]: Setting up your profile.
+[0m10:13:19.324765 [info ] [MainThread]: Profile projet_dbt_rtone written to C:\Users\glese\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m10:13:19.333511 [debug] [MainThread]: Command `dbt init` succeeded at 10:13:19.333511 after 78.75 seconds
+[0m10:13:19.333511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002804C145410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002804C34A650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028052367910>]}
+[0m10:13:19.333511 [debug] [MainThread]: Flushing usage events
