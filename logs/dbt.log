@@ -42,3 +42,31 @@ Runtime Error
 [0m11:48:08.058909 [debug] [MainThread]: Command `dbt run` failed at 11:48:08.058909 after 0.08 seconds
 [0m11:48:08.059940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A32EB9650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A2DD4CCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016A2DECA9D0>]}
 [0m11:48:08.059940 [debug] [MainThread]: Flushing usage events
+[0m17:12:03.756780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F832CB7790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F832C9AF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F832C980D0>]}
+
+
+============================== 17:12:03.770831 | 328ea19b-706f-439d-aedd-4b6155f2b667 ==============================
+[0m17:12:03.770831 [info ] [MainThread]: Running with dbt=1.7.9
+[0m17:12:03.771621 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\glese\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:12:03.771621 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\glese\Mon Drive\Wild\Expédition 17 - DatawareHouse  ETL  DBT  Postgre\DBT_DEMO\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:12:03.773122 [debug] [MainThread]: Command `dbt run` failed at 17:12:03.773122 after 0.07 seconds
+[0m17:12:03.773790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F82CAC3990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F832CDA890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F83078AE90>]}
+[0m17:12:03.773790 [debug] [MainThread]: Flushing usage events
+[0m17:14:35.095067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C42E728250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C42E717950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C42E72B150>]}
+
+
+============================== 17:14:35.099137 | aef4706f-538e-4004-8af6-e7704a93ef92 ==============================
+[0m17:14:35.099137 [info ] [MainThread]: Running with dbt=1.7.9
+[0m17:14:35.099137 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\glese\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:14:35.100198 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\glese\Mon Drive\Wild\Expédition 17 - DatawareHouse  ETL  DBT  Postgre\DBT_DEMO\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:14:35.101201 [debug] [MainThread]: Command `dbt run` failed at 17:14:35.101201 after 0.06 seconds
+[0m17:14:35.102123 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C42E719690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C425DACCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C42E75FDD0>]}
+[0m17:14:35.102123 [debug] [MainThread]: Flushing usage events
